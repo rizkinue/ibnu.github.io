@@ -1,4 +1,4 @@
-var endDate = new Date("Jan 1, 2021 12:00:00").getTime();
+var endDate = new Date("Jan 1, 2022 12:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -22,7 +22,7 @@ var x = setInterval(function() {
 		document.getElementById("hours").innerHTML ='0'; 
 		document.getElementById("minutes").innerHTML ='0' ; 
         document.getElementById("seconds").innerHTML = '0';
-        alert("Thank you for your patience");
+        alert("Makasih udah nungguin <3");
     }
 
 },1000);
